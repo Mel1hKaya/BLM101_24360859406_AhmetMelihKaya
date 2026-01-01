@@ -27,7 +27,7 @@ Geliştirilen Python programı, yönergede belirtilen "encode" ve "decode" işle
 
 1.  **Sıkıştırma (rle_encode):** Kullanıcıdan alınan girdi üzerinde bir döngü kurar. Ardışık tekrar eden karakterleri sayar ve "5A3B2C" gibi bir format oluşturur.
 2.  **Geri Açma (rle_decode):** Sıkıştırılmış metindeki rakamları `isdigit()` kontrolü ile tespit eder ve karakterleri ilgili sayı kadar tekrar ettirerek veriyi orijinal haline döndürür.
-3.  **Sıkıştırma Oranı:** Program, orijinal metin ile sıkıştırılmış metnin uzunluklarını karşılaştırarak sıkıştırma oranını yüzde (%) cinsinden hesaplar.
+3.  **Sıkıştırma Oranı:** Program, orijinal metin ile sıkıştırılmış metnin uzunluklarını karşılaştırarak sıkıştırma oranını yüzde (%) cinsinden hesaplar. Eğer 100'ün üzerinde bir oran geliyorsa gelen oran kadar büyümüştür.
 
 ### Kullanılan Teknolojiler
 * **Dil:** Python 
